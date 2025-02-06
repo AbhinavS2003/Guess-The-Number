@@ -1,0 +1,103 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  cursor: default;
+    font-family: 'Courier New', monospace;
+}
+body {
+  background-color: black;
+  color: white;
+}
+header {
+  margin: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+header button {
+  background-color: white;
+  font-size: 25px;
+  padding: 10px 30px;
+  height: 100%;
+  cursor: pointer;
+}
+header button:hover {
+  transition: background-color 0.2s;
+  color: white;
+  border: 2px solid white;
+  background-color: black;
+}
+header p {
+  margin: 10px 0px 0px 0px;
+  font-size: 25px;
+}
+main h1 {
+  font-size: 80px;
+  text-align: center;
+}
+.section1 {
+  margin: 100px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -65px;
+}
+.line {
+  background-color: white;
+  height: 8px;
+  position: absolute;
+  width: 100%;
+  top: 285px;
+}
+.question {
+  z-index: 1;
+  border: 2px solid white;
+  text-align: center;
+  font-size: 80px;
+  background-color: white;
+  color: black;
+  width: fit-content;
+  padding: 20px 40px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+}
+.section2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.section2 button {
+  width: fit-content;
+  background-color: white;
+  font-size: 25px;
+  padding: 10px 25px;
+  height: 100%;
+  cursor: pointer;
+}
+.section2 button:hover {
+  transition: background-color 0.2s;
+  color: white;
+  border: 2px solid white;
+  background-color: black;
+}
+.section2 input {
+  width: fit-content;
+  font-size: 60px;
+  width: 164px;
+  padding: 10px;
+  border: 2px solid white;
+  background-color: inherit;
+  text-align: center;
+  color: white;
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  appearance: none;
+}
+.section3 {
+  font-size: 25px;
+}

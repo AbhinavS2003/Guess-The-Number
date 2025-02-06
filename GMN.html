@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>guess Number</title>
+    <link rel="stylesheet" href="GMN.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <header>
+      <button type="reset" class="reset">Again!</button>
+      <p>(Between 0 and 20)</p>
+    </header>
+    <main>
+      <h1>Guess My Number</h1>
+    </main>
+    <section class="section1">
+      <div class="qst question">?</div>
+    </section>
+    <div class="line"></div>
+    <footer>
+      <section class="section2">
+        <input type="number" class="guess-number" />
+        <button type="submit" class="btn-check">Check!</button>
+      </section>
+      <section class="section3">
+        <p style="margin-bottom: 60px" class="guessing">Start Guessing...</p>
+        <p style="margin-bottom: 10px">
+          💯 Score: <span class="score">20</span>
+        </p>
+        <p>🥇 Highscore: <span class="highscore">0</span></p>
+      </section>
+    </footer>
+    <script src="GMN.js"></script>
+  </body>
+</html>
